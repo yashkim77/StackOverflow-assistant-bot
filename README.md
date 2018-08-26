@@ -13,20 +13,29 @@ This tutorial requires the following packages:
 * sklearn 
 * requests
 ### Installing
+
 ##### Anaconda
 * https://conda.io/docs/user-guide/install/linux.html
+
 ##### Tensorflow
 * https://www.tensorflow.org/install/
+
 ##### jupyter notebook
 * https://ipython.org/
+
 ##### chatterbot
 * https://chatterbot.readthedocs.io/en/stable/setup.html
+
 ##### nltk
 * pip install nltk
+
 ##### Sklearn
 * pip install sklearn
+
 ##### Requests
 * pip install requests
+
+##### Running
 We are going to integrate the bot to Telegram messenger. To do so, you will need to create a token and use it to run the bot.
 
     * Talk to @BotFather in Telegram. The command "/newbot" will create a bot for you. You will be prompted to enter a name and a          username for your bot. After that, you will be given a token.
