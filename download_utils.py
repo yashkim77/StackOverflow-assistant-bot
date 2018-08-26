@@ -71,48 +71,6 @@ def link_all_files_from_dir(src_dir, dst_dir):
 def link_resources():
     link_all_files_from_dir("../readonly/dataset/", ".")
 
-
-def download_week1_resources(force=False):
-    sequential_downloader(
-        "week1",
-        [
-            "train.tsv",
-            "validation.tsv",
-            "test.tsv",
-            "text_prepare_tests.tsv",
-        ],
-        "data",
-        force=force
-    )
-
-
-def download_week2_resources(force=False):
-    sequential_downloader(
-        "week2",
-        [
-            "train.txt",
-            "validation.txt",
-            "test.txt",
-        ],
-        "data",
-        force=force
-    )
-
-
-def download_week3_resources(force=False):
-    sequential_downloader(
-        "week3",
-        [
-            "train.tsv",
-            "validation.tsv",
-            "test.tsv",
-            "test_embeddings.tsv",
-        ],
-        "data",
-        force=force
-    )
-
-
 def download_project_resources(force=False):
     sequential_downloader(
         "project",
