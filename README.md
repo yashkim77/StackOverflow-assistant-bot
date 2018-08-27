@@ -35,10 +35,12 @@ This tutorial requires the following packages:
 ##### Requests
 * pip install requests
 
-##### Running
-We are going to integrate the bot to Telegram messenger. To do so, you will need to create a token and use it to run the bot.
+##### Running 
+* First Extract word_embeddings.tsv file from word_embeddings.tar.xz.Then run the StackoverBot-project.ipynb notebook to get all the necessary .pkl file.
 
-    * Talk to @BotFather in Telegram. The command "/newbot" will create a bot for you. You will be prompted to enter a name and a          username for your bot. After that, you will be given a token.
+* We are going to integrate the bot to Telegram messenger. To do so, you will need to create a token and use it to run the bot.
+
+    * Talk to @BotFather in Telegram. The command "/newbot" will create a bot for you. You will be prompted to enter a name and a username for your bot. After that, you will be given a token.
     * Run the 'Hello world' bot with the scripted provided for you: python3 main_bot.py --token=YOUR_TOKEN
 
 You can now talk to this bot in Telegram!
