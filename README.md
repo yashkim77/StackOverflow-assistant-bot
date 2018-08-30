@@ -1,6 +1,6 @@
 # StackOverflow-assistant-bot
 *Dialogue chat bot*, which will be able to:
-* answer programming-related questions (using StackOverflow dataset);
+* answer programming-related questions (using StackOverflow dataset).
 * chit-chat and simulate dialogue on all non programming-related questions.
 ### Prerequisites
 This tutorial requires the following packages:
@@ -12,7 +12,7 @@ This tutorial requires the following packages:
 * nltk
 * sklearn 
 * requests
-### Installing
+### installation
 
 ##### Anaconda
 * https://conda.io/docs/user-guide/install/linux.html
