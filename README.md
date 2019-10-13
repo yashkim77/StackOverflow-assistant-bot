@@ -1,4 +1,7 @@
 # StackOverflow-assistant-bot
+
+[![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/yashkim24/StackOverflow-assistant-bot/?ref=repository-badge)
+
 *Dialogue chat bot*, which will be able to:
 * answer programming-related questions (using StackOverflow dataset).
 * chit-chat and simulate dialogue on all non programming-related questions.
